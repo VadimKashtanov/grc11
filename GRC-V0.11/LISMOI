@@ -1,0 +1,9 @@
+<GRC V0.9> avait une impl de d2S/d2wi (et pas d(dS/dwi)/dwj).
+
+[Conclusion] : pas tres utile finalement.
+Prendre 3-4 points aleatoire du tableau second est suffisant pour estimer une moyenne
+des elements du tableau general pour ce genre de reseaux.
+
+{Attention} : D'autres reseaux pourraient avoire un tableau second non uniforme. Je verais d'ici la.
+
+<GRC V0.10> j'ai simplement retirer ce truc de derivee seconde.
